@@ -1,0 +1,32 @@
+.circle {
+  background-color: steelblue;
+  border: 5px solid #333333;
+  border-radius: 18px;
+  box-shadow: 0 0 2px #888;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  //border-radius: 50%;
+  display: inline-block;
+}
+.offset-5per {
+  margin-left:7%;
+}
+.circle > header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.circle > header > h4 {
+  margin: 0;
+  font-size: 60px;
+  color: white;
+}
+
