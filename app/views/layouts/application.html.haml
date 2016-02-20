@@ -7,25 +7,41 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
   %body
-    %section.banner{:role => "banner"}
-      %nav.navbar.navbar-inverse
-        .container-fluid
-          .navbar-header
-          .collapse.navbar-collapse
-            %ul.nav.navbar-nav.navbar-right
-              %li
-                %a{:href => "#"} Gallery
-              %li
-                %a{:href => "#"} Register
-              %li
-                %a{:href => "#"} Information
-              %li
-                %a{:href => "#"} READ Team
-              %li
-                %a{:href => "#"} Contact
-      .container
-        .banner-text.text-center
-          %h1 Cold Noses,
-          %h2 Warm Hearts
-          %button.btn.btn-warning Join Us
+    - if current_page?(root_path)
+      %section.banner{:role => "banner"}
+        .container
+          .banner-text.text-center
+            %h1 Cold Noses,
+            %h2 Warm Hearts
+            %button.btn.btn-warning Join Us
+
+    %nav.navbar.navbar-inverse
+      .container-fluid
+        .navbar-header
+        .collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li
+              =link_to "Home", root_path
+            %li
+              %a{:href => "#"} Register
+            %li
+              %a{:href => "#"} Information
+            %li
+              %a{:href => "#"} READ Team
+            %li
+              %a{:href => "#"} Contact
+              - if user_signed_in?
+                Logged in as
+                = succeed "." do
+                  %strong= current_user.email
+                %li
+                  = link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link'
+                %li
+                  = link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'
+              - else
+                %li
+                  = link_to "Sign up", new_user_registration_path, :class => 'navbar-link'
+                %li
+                  = link_to "Login", new_user_session_path, :class => 'navbar-link'
+  #container.main
     = yield

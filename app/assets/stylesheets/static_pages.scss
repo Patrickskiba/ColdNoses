@@ -5,9 +5,13 @@
 @import "bootstrap";
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 a {
   color: #fff;
+}
+.main {
+  margin-top:15px;
 }
 .banner {
   top: -10px;
@@ -57,6 +61,7 @@ a {
   transition: all 0.6s ease-out;
   background: rgba(0,0,0,0);
   width: 101vw;
+  z-index: 9999;
 }
 .scrolled {
   background: rgba(0,0,0,0.8);
@@ -69,5 +74,40 @@ a {
   margin-right: 0.7vw;
   text-transform: uppercase;
 }
+.center {
+  text-align:center;
+}
+.center > h1 {
+  font-size:70px;
+}
+.circle {
+  background-color: steelblue;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  border-radius: 50%;
+  display: inline-block;
+}
+.offset-5per {
+  margin-left:7%;
+}
+.circle > header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.circle > header > h4 {
+  margin: 0;
+  font-size: 60px;
+  color: white;
+}
+
 
 
