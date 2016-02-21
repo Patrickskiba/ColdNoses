@@ -3,8 +3,9 @@
     .center
       %h1
         Upcoming Events
-    .row
-      .col-md-4.offset-5per.circle
+  .row
+    .container
+      .col-md-4.circle
         %header
           %h4 May
           %h4 14
@@ -20,7 +21,24 @@
         %header
           %h4 June
           %h4 17
-
+%br
+.flex-images
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog1.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog2.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog3.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog4.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog4.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog3.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog2.jpg")
+  .item{"data-h" => "350", "data-w" => "350"}
+    =image_tag("dog1.jpg")
 .row
   .col-md-4
     %h2 Getting Started

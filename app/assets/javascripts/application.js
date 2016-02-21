@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery-flex-images/jquery.flex-images.js
 //= require_tree .
 
 
@@ -32,5 +33,7 @@ $(function () {
             $('.navbar').removeClass("scrolled");
         }
     }
+    $('.flex-images').flexImages({rowHeight: 350});
+
 
 })

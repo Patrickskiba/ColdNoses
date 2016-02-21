@@ -3,8 +3,8 @@ ruby '2.3.0'
 gem 'rails', '>= 5.0.0.beta1.1', '< 5.1'
 gem 'pg', '~> 0.18'
 gem 'uglifier', '>= 1.3.0'
+gem 'bower-rails'
 gem 'coffee-rails', '~> 4.1.0'
-# gem 'therubyracer', platforms: :ruby
 gem "devise", :github => 'plataformatec/devise', :branch => 'master'
 gem "omniauth"
 gem 'jquery-rails'
@@ -14,7 +14,7 @@ gem 'puma'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
 gem 'high_voltage'
-gem 'gibbon' #mailchimp api, do you want to incorperate mailchimp into this? Patrick Response: Yes
+gem 'gibbon'
 gem 'simple_calendar', '~> 2.0'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'html2haml'
