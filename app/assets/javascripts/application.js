@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require masonry.js
+//= require imagesloaded.js
 //= require_tree .
 
 
@@ -32,5 +34,12 @@ $(function () {
             $('.navbar').removeClass("scrolled");
         }
     }
-
+    $('#container').imagesLoaded( function() {
+        $('.grid').masonry({
+            // options...
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-sizer',
+            percentPosition: true
+        });
+    });
 })

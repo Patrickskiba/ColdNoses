@@ -37,12 +37,24 @@
           %h3 READ event
           %p
           %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dui et nunc ornare vulputate..
-%br
-    //=image_tag("dog1.jpg")
-    //=image_tag("dog2.jpg")
-    //=image_tag("dog3.jpg")
-    //=image_tag("dog4.jpg")
-    //=image_tag("dog1.jpg")
+.container-fluid
+  .col-md-5.margin.dogMargin-left
+    .row
+      =image_tag("eventdog4.jpg", class: "bigDog")
+      .dogText Test Text
+  .col-md-3.dogMargin
+    .row
+      =image_tag('dog4.jpg', class: "smallDogTop")
+      .dogText Test Text
+    .row
+      =image_tag("dog3.jpg", class: "smallDogBottom")
+  .col-md-3.dogMargin
+    .row
+      =image_tag("dog4.jpg", class: "smallDogTop")
+      .dogText Test Text
+    .row
+      =image_tag("eventdog1.jpg", class: "smallDogBottom")
+
 .row
   .col-md-4
     %h2 Getting Started
