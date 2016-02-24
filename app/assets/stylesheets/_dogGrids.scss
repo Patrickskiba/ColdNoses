@@ -10,12 +10,23 @@ $dog-opacity: 0.8;
   position:absolute;
   text-align:center;
   width: 100%;
-  top: 25%;
   left: 0;
   font-size: 24px;
   font-weight: bold;
   color: black;
   z-index: 1000;
+}
+.dogTextTop {
+  top: 25%;
+  @extend .dogText
+}
+.dogTextMid {
+  top: 50%;
+  @extend .dogText
+}
+.dogTextBot {
+  top: 75%;
+  @extend .dogText
 }
 .bigDog {
   width:100%;

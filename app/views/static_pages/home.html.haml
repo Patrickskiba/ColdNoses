@@ -37,23 +37,41 @@
           %h3 READ event
           %p
           %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dui et nunc ornare vulputate..
+
+.container.greygrid
+  .col-md-2
+  .col-md-8.center
+    %h3
+      WHAT IS COLD NOSES, WARM HEARTS?
+    %h2
+      We are an all volunteer organization dedicated to animal assisted therapy
+    %p
+      Cold Noses, Warm Hearts, Inc. is a non-profit, all volunteer organization,  dedicated to sharing well trained registered therapy animals and Reading Education Assistance Dogs, (R.E.A.D.) in meaningful programs that provide comfort and caring through the human-animal bond.
+      %br
+      %br
+      Our services are offered in a wide variety of settings including but not limited to hospitals, extended care facilities, universities, children's centers and other facilities where therapy animals are needed along with R.E.A.D. programs in schools and libraries   We strive to make a positive difference in all the lives we touch.
+  .col-md-2
+%br
+
 .container-fluid
   .col-md-5.margin.dogMargin-left
     .row
-      =image_tag("eventdog4.jpg", class: "bigDog")
-      .dogText Test Text
-  .col-md-3.dogMargin
-    .row
-      =image_tag('dog4.jpg', class: "smallDogTop")
-      .dogText Test Text
-    .row
-      =image_tag("dog3.jpg", class: "smallDogBottom")
+      =image_tag("dog4.jpg", class: "bigDog")
+      .dogTextMid Test Text
   .col-md-3.dogMargin
     .row
       =image_tag("dog4.jpg", class: "smallDogTop")
-      .dogText Test Text
+      .dogTextTop Test Text
+    .row
+      =image_tag("dog3.jpg", class: "smallDogBottom")
+      .dogTextBot Test Text
+  .col-md-3.dogMargin
+    .row
+      =image_tag("dog4.jpg", class: "smallDogTop")
+      .dogTextTop Test Text
     .row
       =image_tag("eventdog1.jpg", class: "smallDogBottom")
+      .dogTextBot Test Text
 
 .row
   .col-md-4
