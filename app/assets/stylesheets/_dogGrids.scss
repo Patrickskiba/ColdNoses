@@ -9,8 +9,9 @@ $dog-opacity: 0.8;
 .dogText {
   position:absolute;
   text-align:center;
-  width: 100%;
-  left: 0;
+  width: 50px;
+  height: 50px;
+  left: 45%;
   font-size: 24px;
   font-weight: bold;
   color: black;
@@ -18,21 +19,26 @@ $dog-opacity: 0.8;
 }
 .dogTextTop {
   top: 25%;
+  opacity: 0;
   @extend .dogText
 }
 .dogTextMid {
   top: 50%;
+  opacity: 0;
   @extend .dogText
 }
 .dogTextBot {
   top: 75%;
+  opacity: 0;
   @extend .dogText
 }
 .bigDog {
   width:100%;
   height: 100%;
+  background: black;
+  background-size: cover;
   &:hover {
-    opacity: $dog-opacity;
+    -webkit-filter: brightness(50%);
     width: 101%;
     height: 101%;
     margin-left: 0;
@@ -42,7 +48,7 @@ $dog-opacity: 0.8;
   width: 100%;
   height: 48.5%;
   &:hover {
-    opacity: $dog-opacity;
+    -webkit-filter: brightness(50%);
     width: 102%;
     height: 50%;
     margin: 0;

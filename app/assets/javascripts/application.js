@@ -42,4 +42,10 @@ $(function () {
             percentPosition: true
         });
     });
-})
+
+});
+$(".smallDogTop").mouseenter( function() {
+    $('.dogTextTop').css('opacity','1.0')
+} ).mouseleave( function() {
+    $('.dogTextTop').css('opacity','0')
+} );
