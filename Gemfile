@@ -9,6 +9,7 @@ gem "devise", :github => 'plataformatec/devise', :branch => 'master'
 gem "omniauth"
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'bootstrap-sass', '~> 3.3.6'
@@ -17,6 +18,7 @@ gem 'gibbon'
 gem 'simple_calendar', '~> 2.0'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'html2haml'
+gem 'rails_admin'
 
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development

@@ -11,19 +11,25 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
-//= require turbolinks
 //= require masonry.js
 //= require imagesloaded.js
 //= require_tree .
+//= require turbolinks
 
 
-$(function () {
 
-    if ($('.navbar').length > 0) {
-        $(window).on("scroll load resize", function () {
-            checkScroll();
-        });
+$( document ).ready(function(){
+    if(window.location.href.indexOf("static_pages")  > -1) {
+       $('.navbar').addClass('scrolled');
+    }
+    if(window.location.href.indexOf("static_pages")  < 1) {
+        if ($('.navbar').length > 0) {
+            $(window).on("scroll load resize", function () {
+                checkScroll();
+            });
+        }
     }
     function checkScroll() {
         var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
@@ -43,9 +49,10 @@ $(function () {
         });
     });
 
+    $(".smallDogTop").mouseenter( function() {
+        $('.dogTextTop').css('opacity','1.0')
+    } ).mouseleave( function() {
+        $('.dogTextTop').css('opacity','0')
+    } );
 });
-$(".smallDogTop").mouseenter( function() {
-    $('.dogTextTop').css('opacity','1.0')
-} ).mouseleave( function() {
-    $('.dogTextTop').css('opacity','0')
-} );
+
