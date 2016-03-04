@@ -18,7 +18,6 @@ gem 'gibbon'
 gem 'simple_calendar', '~> 2.0'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'html2haml'
-gem 'rails_admin'
 
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
