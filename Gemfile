@@ -38,7 +38,10 @@ group :development do
   gem 'better_errors'
   gem 'spring'
   gem 'rails_layout'
-  
+
+end
+group :production do
+  gem 'thin'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
