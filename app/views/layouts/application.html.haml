@@ -4,8 +4,8 @@
     %title ColdNoses
     = csrf_meta_tags
     = action_cable_meta_tag
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = stylesheet_link_tag "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css",'application.css', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js","https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js", 'application', 'data-turbolinks-track' => true
   %body
     - if current_page?(root_path)
       %section.banner{:role => "banner"}
@@ -13,8 +13,7 @@
           .banner-text.text-center
             %h1 Cold Noses,
             %h2 Warm Hearts
-            %button.btn.btn-warning
-              = link_to("Join Us", new_user_registration_path)
+            =link_to "Join Us", new_user_registration_path, class: "btn btn-warning"
 
   - unless current_page?(new_user_registration_path) || current_page?(new_user_session_path)
     %nav.navbar.navbar-inverse

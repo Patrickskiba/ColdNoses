@@ -10,13 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require turbolinks
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-//= require masonry.js
-//= require imagesloaded.js
+
+
+//= require moment
+//= require fullcalendar
 //= require_tree .
-//= require turbolinks
 
 
 
@@ -54,5 +56,10 @@ $( document ).ready(function(){
     } ).mouseleave( function() {
         $('.dogTextTop').css('opacity','0')
     } );
+
 });
+
+
+
+
 
