@@ -14,50 +14,15 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
-
-
+//= require jquery-ui
 //= require moment
 //= require fullcalendar
+//= require jqueryui-timepicker-addon/dist/jquery-ui-timepicker-addon
+//= require jqueryui-timepicker-addon/dist/i18n/jquery-ui-timepicker-fr
 //= require_tree .
 
 
 
-$( document ).ready(function(){
-    if(window.location.href.indexOf("static_pages")  > -1) {
-       $('.navbar').addClass('scrolled');
-    }
-    if(window.location.href.indexOf("static_pages")  < 1) {
-        if ($('.navbar').length > 0) {
-            $(window).on("scroll load resize", function () {
-                checkScroll();
-            });
-        }
-    }
-    function checkScroll() {
-        var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
-
-        if ($(window).scrollTop() > startY) {
-            $('.navbar').addClass("scrolled");
-        } else {
-            $('.navbar').removeClass("scrolled");
-        }
-    }
-    $('#container').imagesLoaded( function() {
-        $('.grid').masonry({
-            // options...
-            itemSelector: '.grid-item',
-            columnWidth: '.grid-sizer',
-            percentPosition: true
-        });
-    });
-
-    $(".smallDogTop").mouseenter( function() {
-        $('.dogTextTop').css('opacity','1.0')
-    } ).mouseleave( function() {
-        $('.dogTextTop').css('opacity','0')
-    } );
-
-});
 
 
 

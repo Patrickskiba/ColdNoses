@@ -1,0 +1,41 @@
+<%= stylesheet_link_tag 'nonHomeNav', media: 'print, screen' %>
+<p id="notice"><%= notice %></p>
+<div class="container belowNav">
+  <div class="row">
+    <div class="col-md-3">
+      <h4>Title</h4>
+    </div>
+    <div class="col-md-3">
+      <h4>Description</h4>
+    </div>
+    <div class="col-md-2">
+      <h4>Start Time</h4>
+    </div>
+    <div class="col-md-2">
+      <h4>End Time</h4>
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+  <% @events.each do |event| %>
+    <div class="row eventRows">
+      <div class="col-md-3 eventText">
+        <%= event.title %>
+      </div>
+      <div class="col-md-3 eventText">
+        <%= event.description %>
+      </div>
+      <div class="col-md-2 eventText">
+        <%= event.start_time %>
+      </div>
+      <div class="col-md-2 eventText">
+        <%= event.end_time %>
+      </div>
+      <div class="col-md-2">
+        <%= link_to 'Edit', edit_event_path(event), class: "btn btn-warning" %>
+        <%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-success" %>
+      </div>
+    </div>
+  <% end %>
+</div>
+

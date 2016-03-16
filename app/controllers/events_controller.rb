@@ -6,9 +6,13 @@ class EventsController < ApplicationController
   def index
     @events = Event.all
   end
+  def list
+    @events = Event.all
+  end
 
   # GET /events/1
   # GET /events/1.json
+
   def show
   end
 
@@ -60,6 +64,7 @@ class EventsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
 
   private
   # Use callbacks to share common setup or constraints between actions.

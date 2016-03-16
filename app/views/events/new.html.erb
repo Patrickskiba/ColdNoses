@@ -1,5 +1,4 @@
-<h1>New Event</h1>
-
-<%= render 'form', event: @event %>
-
-<%= link_to 'Back', events_path %>
+<%= stylesheet_link_tag 'nonHomeNav', media: 'print, screen' %>
+<div class="container belowNav">
+  <%= render 'form', event: @event %>
+</div>

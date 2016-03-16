@@ -3,6 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "jqueryui-timepicker-addon/dist/jquery-ui-timepicker-addon.css";
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -61,6 +63,26 @@ h3 {
   margin: auto;
   margin-top: 40px;
 }
+.belowNav {
+  margin-top: 40px;
+}
+.fc th, .fc td {
+  border-style: solid;
+  border-color: #8c8c8c;
+  border-width: 2px;
+  padding: 0;
+  vertical-align: top;
+}
+.fc-unthemed .fc-today {
+  background: rgba(52, 190, 255, 0.51);
+  opacity: .9;
+}
 
-@import "fullcalendar";
+.eventRows {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  .eventText {
+    margin-top: 0.5%;
+  }
+}
 

@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem "devise", :github => 'plataformatec/devise', :branch => 'master'
 gem "omniauth"
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
