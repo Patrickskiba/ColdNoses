@@ -23,8 +23,9 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'activeadmin', github: 'activeadmin'
 gem 'formtastic', github: 'justinfrench/formtastic'
-
-
+gem 'carrierwave'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
