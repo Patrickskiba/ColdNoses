@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users
   resources :contact_us, only: [:new, :create]
+  resources :maillist, only: [:new, :create]
   resources :events do
     collection do
       get 'list'
