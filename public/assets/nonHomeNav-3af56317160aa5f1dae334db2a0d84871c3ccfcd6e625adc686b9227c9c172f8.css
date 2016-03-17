@@ -1,0 +1,27 @@
+.navbar {
+    top: -5px;
+    left: -10px;
+    position: fixed;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    background: rgba(0,0,0,0.8);
+    width: 101vw;
+    z-index: 9999;
+}
+.ui-widget-header {
+    background: #f0ad4e;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    color: #337ab7;
+}
+.ui-datepicker {
+    color: #337ab7;
+}
+.ui-state-default,.ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #337ab7;
+}
+.ui-widget-content .ui-slider-handle, .ui-state-default .ui-corner-all {
+    background: #f0ad4e;
+}

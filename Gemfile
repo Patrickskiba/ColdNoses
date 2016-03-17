@@ -26,6 +26,7 @@ gem 'formtastic', github: 'justinfrench/formtastic'
 gem 'carrierwave'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+gem 'simple_form'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 

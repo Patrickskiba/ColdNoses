@@ -1,7 +1,7 @@
 Class MaillistController < ApplicationController
   def new
         @maillist = Maillist.new
-    end
+  end
     def create
     @maillist = Maillist.new(secure_params)
         if @maillist.valid?
@@ -16,5 +16,4 @@ Class MaillistController < ApplicationController
 private
     def secure_params
     params.require(:maillist).permit(:email)
-    end    
-end
+    end  

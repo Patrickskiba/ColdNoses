@@ -2,7 +2,7 @@ class ContactUsController < ApplicationController
   def new
       @contact = Contact.new
   end
-  def createuser
+  def create
       @contact = Contact.new(secure_params)
       if @contact.valid?
           UserMailer.contact_email(@contact).deliver
