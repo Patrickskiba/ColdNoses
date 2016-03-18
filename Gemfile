@@ -24,6 +24,7 @@ gem 'momentjs-rails'
 gem 'activeadmin', github: 'activeadmin'
 gem 'formtastic', github: 'justinfrench/formtastic'
 gem 'carrierwave'
+gem "rmagick"
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 gem 'simple_form'

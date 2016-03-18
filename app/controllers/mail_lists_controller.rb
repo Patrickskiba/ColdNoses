@@ -1,9 +1,9 @@
-class MaillistController < ApplicationController
+class MailListsController < ApplicationController
   def new
-        @maillist = Maillist.new
+        @mailLists = MailList.new
   end
     def create
-    @maillist = Maillist.new(secure_params)
+    @mailLists = MailList.new(secure_params)
         if @maillist.valid?
         @maillist.subscribe
         flash[:notice] = "Signed up #{@maillist.email}."
@@ -15,6 +15,6 @@ class MaillistController < ApplicationController
     
 private
     def secure_params
-    params.require(:maillist).permit(:email)
+    params.require(:@mailLists).permit(:email)
     end
 end

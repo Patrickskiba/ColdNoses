@@ -1,0 +1,18 @@
+<% title @dog.name %>
+<div>
+  <% for dog in @dog.dogs %>
+  <div>
+    <% image_tag dog.image_url(:thumb).to_s %>
+    <div><%= dog.name %></div>
+    <div>
+      <%= link_to "edit", edit_dog_path(dog) %>
+      <%= link_to "remove", dog, :confirm => 'Are you sure?', :method => :delete %>
+    </div>
+  </div>
+      <% end %>
+  <div><br></div>
+</div>
+<p>
+  <%= link_to "Add a dog profile", new_dog_path(:dog_id => @dog) %>
+
+</p>
