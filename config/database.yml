@@ -16,12 +16,12 @@
 #
 default: &default
   adapter: postgresql
-  encoding: SQL_ASCII
+  encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
   host: localhost
-  username: postgres
+  username: tigerwoods
   password: E@ten234
 
 development:
@@ -83,5 +83,3 @@ test:
 production:
   <<: *default
   database: coldNoses_production
-  username: coldNoses
-  password: <%= ENV['COLDNOSES_DATABASE_PASSWORD'] %>

@@ -1,4 +1,4 @@
-Class MaillistController < ApplicationController
+class MaillistController < ApplicationController
   def new
         @maillist = Maillist.new
   end
@@ -16,4 +16,5 @@ Class MaillistController < ApplicationController
 private
     def secure_params
     params.require(:maillist).permit(:email)
-    end  
+    end
+end
