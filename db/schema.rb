@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160307003740) do
+ActiveRecord::Schema.define(version: 20160319203001) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,6 +47,29 @@ ActiveRecord::Schema.define(version: 20160307003740) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  create_table "ar_internal_metadata", primary_key: "key", id: :string, force: :cascade do |t|
+    t.string   "value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "dogs", force: :cascade do |t|
+    t.string   "name"
+    t.string   "breed"
+    t.integer  "age"
+    t.text     "cgc"
+    t.text     "registration"
+    t.text     "therapy_group"
+    t.date     "renewal_date"
+    t.text     "image"
+    t.text     "description"
+    t.string   "gender"
+    t.string   "owner"
+    t.boolean  "retired"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
   create_table "events", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
@@ -54,6 +77,21 @@ ActiveRecord::Schema.define(version: 20160307003740) do
     t.datetime "end_time"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "members", force: :cascade do |t|
+    t.string   "email"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.text     "address"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "zip_code"
+    t.string   "cellphone"
+    t.string   "home_phone"
+    t.string   "membership_type"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   create_table "users", force: :cascade do |t|
