@@ -17,7 +17,7 @@ class EventsController < ApplicationController
   end
   def home
 
-      @home = Event.all.order(:start_time)
+      @home = Event.all.order(:start_time).first(4)
 
   end
 

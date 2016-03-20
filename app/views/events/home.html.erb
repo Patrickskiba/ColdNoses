@@ -6,11 +6,11 @@
   <div id="col-sm-6 col-md-3">
     <div id="thumbnail"><%= image_tag("eventdog1.jpg") %></div>
     <div id="caption">
-      <%= @home.first(4) do |event| %>
-      <h4><%= @home.event.title %></h4>
-      <h3><%= @home.event.description %></h3>
-      <p><%= @home.event.start_time %></p>
-      <p><%= @home.end_time %></p>
+      <% @home.each do |event| %>
+      <h4><%= event.title %></h4>
+      <h3><%= event.description %></h3>
+      <p><%= event.start_time.strftime("%m/%d/%Y %H:%m %p") %></p>
+      <p><%= event.end_time %></p>
       <% end %>
     </div>
   </div>

@@ -5,9 +5,15 @@
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-    <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+    <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.3.0" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-    <envs />
+    <envs>
+      <env name="RAILS_ENV" value="production" />
+      <env name="SECRET_KEY_BASE" value="dddc4d09095f26f17a5f899c82ef6ce9ee1d51fe9b91c92e66c19fb1f331e20f58e308c35ee9aa2590f17601f6b5eb816fa406e7841f98f9cb0ea20d6955d3fb" />
+      <env name="RACK_ENV" value="production" />
+      <env name="LANG" value="en_US.UTF-8" />
+      <env name="CLEARDB_DATABASE_URL" value="mysql://b2d75d36ef97e9:72bd82a4@us-cdbr-iron-east-03.cleardb.net/heroku_b0e65550b695f55?reconnect=true" />
+    </envs>
     <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
     <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
     <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
@@ -19,7 +25,7 @@
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-    <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+    <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="puma" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
     <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     <method />
