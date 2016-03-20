@@ -1,6 +1,5 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
-  helper_method @events.next_event
   # GET /events
   # GET /events.json
   def index
@@ -12,10 +11,24 @@ class EventsController < ApplicationController
 
   # GET /events/1
   # GET /events/1.json
-
   def show
+
+  end
+  def home
+
+      @home = Event.all.order(:start_time)
+
   end
 
+  # def countdown
+  #   today = Date.today
+  #   first_event = array[0]
+  #   if first_event > today
+  #     countdown = (first_event - today).to_i
+  #   else
+  #     countdown = (first_event.next_year - today).to_i
+  #   end
+  # end
   # GET /events/new
   def new
     @event = Event.new
@@ -53,9 +66,6 @@ class EventsController < ApplicationController
         format.json { render json: @event.errors, status: :unprocessable_entity }
       end
     end
-  end
-  def self.next_event
-    @event.next_event
   end
   # DELETE /events/1
   # DELETE /events/1.json

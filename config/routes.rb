@@ -4,7 +4,7 @@ Rails.application.routes.draw do
       get 'show'
     end
   end
-  root 'static_pages#home'
+  root 'events#home'
   ActiveAdmin.routes(self)
   devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users
