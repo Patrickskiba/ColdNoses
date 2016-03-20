@@ -1,18 +1,65 @@
-<% title @dog.name %>
-<div>
-  <% for dog in @dog.dogs %>
-  <div>
-    <% image_tag dog.image_url(:thumb).to_s %>
-    <div><%= dog.name %></div>
-    <div>
-      <%= link_to "edit", edit_dog_path(dog) %>
-      <%= link_to "remove", dog, :confirm => 'Are you sure?', :method => :delete %>
-    </div>
-  </div>
-      <% end %>
-  <div><br></div>
-</div>
-<p>
-  <%= link_to "Add a dog profile", new_dog_path(:dog_id => @dog) %>
+<p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Name:</strong>
+  <%= @dog.name %>
 </p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @dog.breed %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @dog.age %>
+</p>
+
+<p>
+  <strong>Cgc:</strong>
+  <%= @dog.cgc %>
+</p>
+
+<p>
+  <strong>Registration:</strong>
+  <%= @dog.registration %>
+</p>
+
+<p>
+  <strong>Therapy group:</strong>
+  <%= @dog.therapy_group %>
+</p>
+
+<p>
+  <strong>Renewal date:</strong>
+  <%= @dog.renewal_date %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @dog.image %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dog.description %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @dog.gender %>
+</p>
+
+<p>
+  <strong>Member:</strong>
+  <%= @dog.member %>
+</p>
+
+<p>
+  <strong>Retired:</strong>
+  <%= @dog.retired %>
+</p>
+
+<%= link_to 'Edit', edit_dog_path(@dog) %> |
+<%= link_to 'Back', dogs_path %>
+

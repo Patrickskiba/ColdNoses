@@ -1,12 +1,22 @@
-<%= form_for @dog, :html => {:multipart => true} do |f| %>
-<%= f.error_messages %>
-<%= f.hidden_field :dog_id %>
-<p>
-  <%= f.label :name %><br/>
-  <%= f.text_field :name %>
-</p>
-<p>
-  <%= f.file_field :image %>
-</p>
-<p><%= f.submit %> </p>
+<%= simple_form_for(@dog) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :breed %>
+    <%= f.input :age %>
+    <%= f.input :cgc %>
+    <%= f.input :registration %>
+    <%= f.input :therapy_group %>
+    <%= f.input :renewal_date %>
+    <%= f.input :image %>
+    <%= f.input :description %>
+    <%= f.input :gender %>
+    <%= f.input :member %>
+    <%= f.input :retired %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
 <% end %>
