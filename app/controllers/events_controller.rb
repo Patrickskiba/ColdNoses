@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
-
+  helper_method @events.next_event
   # GET /events
   # GET /events.json
   def index
@@ -54,7 +54,9 @@ class EventsController < ApplicationController
       end
     end
   end
-
+  def self.next_event
+    @event.next_event
+  end
   # DELETE /events/1
   # DELETE /events/1.json
   def destroy

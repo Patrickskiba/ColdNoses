@@ -1,0 +1,41 @@
+<div id="row main center">
+  <h1>Upcoming Events</h1>
+</div>
+<div id="row container-fluid">
+  <%= @events.next_event do |event| %>
+  <div id="col-sm-6 col-md-3">
+    <div id="thumbnail"><%= image_tag("eventdog1.jpg") %></div>
+    <div id="caption">
+      <h4><%= event.title %></h4>
+      <h3> <%=event.description %></h3>
+      <p><%=event.start_time %></p>
+      <p><%=event.end_time %></p>
+    </div>
+
+  </div>
+  <% end %>
+</div>
+<div id="container greygrid">
+  <div id="col-md-2">
+    <div id="col-md-8 center">
+      <h3>What is Cold Noses, Warm Hearts?</h3>
+      <h2>We are an all volunteer organization dedicated to animal assisted therapy</h2>
+      <p>Cold Noses, Warm Hearts, Inc. is a non-profit, all volunteer organization, dedicated to sharing well trained registered therapy animals and Reading Edication Assistance Dogs, (R.E.A.D.) in meaningful programs that provide comfort and caring through the human-animal bond.</p>
+      <br><br>
+
+    </div>
+  </div>
+</div>
+.col-md-2
+.col-md-8.center
+%h3
+WHAT IS COLD NOSES, WARM HEARTS?
+%h2
+We are an all volunteer organization dedicated to animal assisted therapy
+%p
+Cold Noses, Warm Hearts, Inc. is a non-profit, all volunteer organization,  dedicated to sharing well trained registered therapy animals and Reading Education Assistance Dogs, (R.E.A.D.) in meaningful programs that provide comfort and caring through the human-animal bond.
+%br
+%br
+Our services are offered in a wide variety of settings including but not limited to hospitals, extended care facilities, universities, children's centers and other facilities where therapy animals are needed along with R.E.A.D. programs in schools and libraries   We strive to make a positive difference in all the lives we touch.
+.col-md-2
+%br

@@ -1,14 +1,14 @@
 class Event < ApplicationRecord
 
-  def nextEvent
-    nextEvent = Array.new(3)
+  def next_event
+    array = Array.new(3)
     i = 0
     c = 1
     today = Date.today
-    while nextEvent[i]<3 do
+    while array[i]<3 do
       d = Event.find(c)
       if d.Date > today
-        nextEvent[i] = d
+        next_event.d = array[i]
       i+1
     end
  c+1
@@ -17,11 +17,11 @@ class Event < ApplicationRecord
 
   def countdown
     today = Date.today
-    firstEvent = nextEvent[0]
-    if firstEvent > today
-    countdown = (firstEvent - today).to_i
+    first_event = array[0]
+    if first_event > today
+    countdown = (first_event - today).to_i
     else
-      countdown = (firstEvent.next_year - today).to_i
+      countdown = (first_event.next_year - today).to_i
     end
   end
 end

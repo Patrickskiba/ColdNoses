@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: black;
 }
-/* line 34, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/_typography.scss */
+/* line 34, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/_typography.scss */
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
   margin: 0;
 }
@@ -157,7 +157,7 @@ strong, dfn {
   font-weight: bold;
 }
 
-/* line 57, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/_typography.scss */
+/* line 57, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/_typography.scss */
 em, dfn {
   font-style: italic;
 }
@@ -167,7 +167,7 @@ sup, sub {
   line-height: 0;
 }
 
-/* line 60, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/_typography.scss */
+/* line 60, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/_typography.scss */
 abbr,
 acronym {
   border-bottom: 1px dotted #666;
@@ -324,7 +324,7 @@ th, td, caption {
   padding-bottom: 0;
 }
 
-/* line 14, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
+/* line 14, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
 body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 150%;
@@ -336,7 +336,7 @@ body {
   color: black;
 }
 
-/* line 25, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
+/* line 25, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
 a {
   color: black;
   text-decoration: none;
@@ -424,7 +424,7 @@ h3 {
   font-size: .9em;
 }
 
-/* line 112, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
+/* line 112, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
 table {
   margin-bottom: 1.5em;
   text-align: left;
@@ -452,7 +452,7 @@ table th, table td {
 table th .member_link, table td .member_link {
   display: none;
 }
-/* line 139, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
+/* line 139, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
 table td {
   border-bottom: thin solid black;
 }
@@ -518,7 +518,7 @@ table tr {
   margin-bottom: 1em;
 }
 
-/* line 211, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
+/* line 211, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
 .attributes_table {
   border-top: medium solid black;
 }
@@ -537,7 +537,7 @@ table tr {
   max-width: 6in;
 }
 
-/* line 232, /home/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
+/* line 232, /hamlsucks/ricksanchez/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-f7483e3b8fcd/app/assets/stylesheets/active_admin/print.scss */
 #filters_sidebar_section {
   display: none;
 }
