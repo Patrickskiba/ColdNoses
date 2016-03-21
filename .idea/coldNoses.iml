@@ -23,7 +23,7 @@
         <env name="SECRET_KEY_BASE" value="dddc4d09095f26f17a5f899c82ef6ce9ee1d51fe9b91c92e66c19fb1f331e20f58e308c35ee9aa2590f17601f6b5eb816fa406e7841f98f9cb0ea20d6955d3fb" />
         <env name="RACK_ENV" value="production" />
         <env name="LANG" value="en_US.UTF-8" />
-        <env name="CLEARDB_DATABASE_URL" value="mysql://b2d75d36ef97e9:72bd82a4@us-cdbr-iron-east-03.cleardb.net/heroku_b0e65550b695f55?reconnect=true" />
+        <env name="DATABASE_URL" value="postgres://vdcwahkxoywdiz:eK7Y_Tf32KS2J6tibw1dnd-iLK@ec2-107-22-246-250.compute-1.amazonaws.com:5432/dc1aplqsc1u2dn" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
