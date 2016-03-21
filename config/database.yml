@@ -19,4 +19,4 @@ test:
 
 production:
   <<: *default
-  database: db/coldnoses_production
+  database: Rails.application.secrets.database

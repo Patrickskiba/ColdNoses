@@ -26,7 +26,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/db/coldnoses_production</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/Rails.application.secrets.database</jdbc-url>
     </data-source>
   </component>
 </project>
