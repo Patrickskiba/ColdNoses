@@ -10,6 +10,9 @@
       <user-name>tigerwoods</user-name>
       <user-password>dfefdfeadfdedfcfdfc4df98df99df9e</user-password>
     </data-source>
-    <data-source name="Rails coldNoses: production" uuid="455c70db-7370-4d02-8502-c02d2067014b" />
+    <data-source name="Rails coldNoses: production" uuid="455c70db-7370-4d02-8502-c02d2067014b">
+      <user-name>tigerwoods</user-name>
+      <user-password>dfefdfeadfdedfcfdfc4df98df99df9e</user-password>
+    </data-source>
   </component>
 </project>
