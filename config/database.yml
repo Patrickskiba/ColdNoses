@@ -19,7 +19,7 @@ default: &default
   #encoding: utf8
   username: root
   password: password
-
+  host: localhost
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
 
@@ -82,5 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: coldNoses_production
-  socket: <%= ENV["CLEARDB_DATABASE_URL"] %> 
+  database: <%= ENV["CLEARDB_DATABASE_URL"] %> 
