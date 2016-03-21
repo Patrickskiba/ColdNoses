@@ -16,6 +16,11 @@
 #
 default: &default
   adapter: mysql2
+  #encoding: utf8
+  username: root
+  password: my_password
+  host: 127.0.0.1
+  port: 3306
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
 
