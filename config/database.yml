@@ -83,3 +83,4 @@ test:
 production:
   <<: *default
   database: <%= ENV["CLEARDB_DATABASE_URL"] %> 
+  socket: /var/run/mysql/mysql.sock
