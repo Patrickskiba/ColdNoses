@@ -83,3 +83,5 @@ test:
 production:
   <<: *default
   database: coldNoses_production
+  localhost: Rails.application.secrets.database_url
+  encoding: Rails.application.secrets.encoding
