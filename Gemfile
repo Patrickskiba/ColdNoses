@@ -22,8 +22,8 @@ gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'activeadmin', github: 'activeadmin'
 gem 'formtastic', github: 'justinfrench/formtastic'
-gem 'carrierwave', :github => 'satoruk/carrierwave' , :ref => '43179f94d6a4e62f69e812f5082d6447c9138480'
-#gem 'rmagick', require: false
+gem 'carrierwave'#, :github => 'satoruk/carrierwave' , :ref => '43179f94d6a4e62f69e812f5082d6447c9138480'
+gem 'rmagick', require: false
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 gem 'simple_form'
