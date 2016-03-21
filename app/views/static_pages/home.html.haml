@@ -9,10 +9,11 @@
       .thumbnail
         =image_tag("eventdog1.jpg")
         .caption
-          %h4 April 2, 2016
-          %h3 READ event
-          %p
-          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dui et nunc ornare vulputate..
+
+          %h4 = event.title
+          %h3 = event.start_time
+          %p = event.end_time
+          %p = event.description
     .col-sm-6.col-md-3
       .thumbnail
         =image_tag("eventdog2.jpg")

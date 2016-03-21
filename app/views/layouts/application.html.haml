@@ -26,7 +26,7 @@
             %li
               = link_to 'Calendar', events_path, :class => 'navbar-link'
             %li
-              %a{:href => "#"} Volunteer
+              = link_to 'Volunteer', dogs_path, :class => 'navbar-link'
             %li
               %a{:href => "#"} Contact
               - if user_signed_in?

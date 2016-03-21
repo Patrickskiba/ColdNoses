@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  breed: MyString
+  age: 1
+  cgc: MyText
+  registration: MyText
+  therapy_group: MyText
+  renewal_date: 2016-03-19
+  image: MyText
+  description: MyText
+  gender: MyString
+  member: MyString
+  retired: false
+
+two:
+  name: MyString
+  breed: MyString
+  age: 1
+  cgc: MyText
+  registration: MyText
+  therapy_group: MyText
+  renewal_date: 2016-03-19
+  image: MyText
+  description: MyText
+  gender: MyString
+  member: MyString
+  retired: false

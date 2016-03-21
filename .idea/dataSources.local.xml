@@ -2,17 +2,17 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails coldNoses: test" uuid="2769fd8b-4864-4b1d-ad37-e1a5b13e55f5">
-      <user-name>tigerwoods</user-name>
-      <user-password>dfefdfeadfdedfcfdfc4df98df99df9e</user-password>
+      <user-name>root</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
     </data-source>
     <data-source name="Rails coldNoses: development" uuid="1500de9c-a41e-4f38-93e9-b620f7a4099b">
       <first-sync>true</first-sync>
-      <user-name>tigerwoods</user-name>
-      <user-password>dfefdfeadfdedfcfdfc4df98df99df9e</user-password>
+      <user-name>root</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
     </data-source>
     <data-source name="Rails coldNoses: production" uuid="455c70db-7370-4d02-8502-c02d2067014b">
-      <user-name>tigerwoods</user-name>
-      <user-password>dfefdfeadfdedfcfdfc4df98df99df9e</user-password>
+      <user-name>root</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
     </data-source>
   </component>
 </project>

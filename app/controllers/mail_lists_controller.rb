@@ -12,6 +12,9 @@ class MailListsController < ApplicationController
         render :new
         end
     end
+  def checked
+
+  end
     
 private
     def secure_params

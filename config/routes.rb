@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  root 'static_pages#home'
+  resources :dogs do
+    collection do
+      get 'show'
+    end
+  end
+  root 'events#home'
   ActiveAdmin.routes(self)
   devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users

@@ -13,7 +13,7 @@
   padding-top: 30vh;
 }
 
-/* line 12, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_banner.scss */
+/* line 12, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_banner.scss */
 .banner-text h1 {
   color: #fff;
   font-size: 7.4em;
@@ -209,7 +209,7 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 1, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_simplecal.scss */
+/* line 1, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_simplecal.scss */
 .simplecal {
   margin-top: 40px;
 }
@@ -277,7 +277,7 @@ a:hover {
   background-color: #000;
 }
 
-/* line 36, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/scaffolds.scss */
+/* line 36, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/scaffolds.scss */
 th {
   padding-bottom: 5px;
 }
@@ -326,7 +326,7 @@ div.field, div.actions {
   background-color: #c00;
   color: #fff;
 }
-/* line 81, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/scaffolds.scss */
+/* line 81, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/scaffolds.scss */
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
@@ -432,7 +432,7 @@ mark {
   color: #000;
 }
 
-/* line 154, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 154, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -482,7 +482,7 @@ pre {
   overflow: auto;
 }
 
-/* line 229, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 229, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
 code,
 kbd,
 pre,
@@ -540,7 +540,7 @@ input {
   line-height: normal;
 }
 
-/* line 334, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
+/* line 334, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -772,7 +772,7 @@ th {
   content: "\e003";
 }
 
-/* line 48, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 48, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-heart:before {
   content: "\e005";
 }
@@ -847,12 +847,12 @@ th {
   content: "\e019";
 }
 
-/* line 63, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 63, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-trash:before {
   content: "\e020";
 }
 
-/* line 64, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 64, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-home:before {
   content: "\e021";
 }
@@ -1062,7 +1062,7 @@ th {
   content: "\e063";
 }
 
-/* line 106, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 106, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tint:before {
   content: "\e064";
 }
@@ -1082,7 +1082,7 @@ th {
   content: "\e067";
 }
 
-/* line 110, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 110, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-move:before {
   content: "\e068";
 }
@@ -1307,7 +1307,7 @@ th {
   content: "\e115";
 }
 
-/* line 155, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 155, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-shopping-cart:before {
   content: "\e116";
 }
@@ -1482,7 +1482,7 @@ th {
   content: "\e151";
 }
 
-/* line 190, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 190, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-alphabet-alt:before {
   content: "\e152";
 }
@@ -1982,7 +1982,7 @@ th {
   content: "\e250";
 }
 
-/* line 298, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
+/* line 298, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-triangle-left:before {
   content: "\e251";
 }
@@ -2417,7 +2417,7 @@ a.bg-primary:focus {
   background-color: #dff0d8;
 }
 
-/* line 8, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
+/* line 8, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-success:hover,
 a.bg-success:focus {
   background-color: #c1e2b3;
@@ -2469,7 +2469,7 @@ ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 153, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
+/* line 153, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 ul ul,
 ul ol,
 ol ul,
@@ -2684,7 +2684,7 @@ pre code {
   overflow-y: scroll;
 }
 
-/* line 10, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
+/* line 10, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -2809,7 +2809,7 @@ pre code {
   width: 75%;
 }
 
-/* line 35, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+/* line 35, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
 .col-xs-10 {
   width: 83.33333333%;
 }
@@ -2924,7 +2924,7 @@ pre code {
   left: 50%;
 }
 
-/* line 40, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+/* line 40, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
 .col-xs-push-7 {
   left: 58.33333333%;
 }
@@ -2934,7 +2934,7 @@ pre code {
   left: 66.66666667%;
 }
 
-/* line 40, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+/* line 40, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
 .col-xs-push-9 {
   left: 75%;
 }
@@ -2984,7 +2984,7 @@ pre code {
   margin-left: 41.66666667%;
 }
 
-/* line 60, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+/* line 60, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
 .col-xs-offset-6 {
   margin-left: 50%;
 }
@@ -3045,7 +3045,7 @@ pre code {
     width: 33.33333333%;
   }
 
-  /* line 35, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 35, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-5 {
     width: 41.66666667%;
   }
@@ -3080,7 +3080,7 @@ pre code {
     width: 91.66666667%;
   }
 
-  /* line 35, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 35, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-12 {
     width: 100%;
   }
@@ -3321,7 +3321,7 @@ pre code {
     width: 58.33333333%;
   }
 
-  /* line 35, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 35, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-8 {
     width: 66.66666667%;
   }
@@ -3361,7 +3361,7 @@ pre code {
     right: 16.66666667%;
   }
 
-  /* line 50, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 50, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-pull-3 {
     right: 25%;
   }
@@ -3451,7 +3451,7 @@ pre code {
     left: 58.33333333%;
   }
 
-  /* line 40, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 40, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-push-8 {
     left: 66.66666667%;
   }
@@ -3547,7 +3547,7 @@ pre code {
     float: left;
   }
 
-  /* line 35, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 35, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-1 {
     width: 8.33333333%;
   }
@@ -3687,7 +3687,7 @@ pre code {
     left: 16.66666667%;
   }
 
-  /* line 40, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 40, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-push-3 {
     left: 25%;
   }
@@ -3767,7 +3767,7 @@ pre code {
     margin-left: 41.66666667%;
   }
 
-  /* line 60, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+  /* line 60, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-offset-6 {
     margin-left: 50%;
   }
@@ -4064,7 +4064,7 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr > td:last-child {
     border-right: 0;
   }
-  /* line 225, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tables.scss */
+  /* line 225, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
   .table-responsive > .table-bordered > tfoot > tr:last-child > th,
@@ -4469,7 +4469,7 @@ select[multiple].input-lg,
 .form-group-lg select[multiple].form-control {
   height: auto;
 }
-/* line 374, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
+/* line 374, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg .form-control-static {
   height: 46px;
   min-height: 38px;
@@ -4523,7 +4523,7 @@ select[multiple].input-lg,
   line-height: 30px;
 }
 
-/* line 8, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_forms.scss */
+/* line 8, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -4628,7 +4628,7 @@ select[multiple].input-lg,
   top: 0;
 }
 
-/* line 453, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
+/* line 453, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .help-block {
   display: block;
   margin-top: 5px;
@@ -4746,7 +4746,7 @@ select[multiple].input-lg,
   }
 }
 @media (min-width: 768px) {
-  /* line 611, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 611, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
     font-size: 12px;
@@ -4792,7 +4792,7 @@ select[multiple].input-lg,
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 46, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_buttons.scss */
+/* line 46, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   cursor: not-allowed;
   opacity: 0.65;
@@ -4885,7 +4885,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   background-image: none;
 }
-/* line 45, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 45, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus {
   background-color: #337ab7;
   border-color: #2e6da4;
@@ -4914,7 +4914,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #449d44;
   border-color: #398439;
 }
-/* line 22, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 22, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: #fff;
   background-color: #449d44;
@@ -4971,7 +4971,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #269abc;
   border-color: #1b6d85;
 }
-/* line 37, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 37, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
   background-image: none;
 }
@@ -5010,7 +5010,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #ec971f;
   border-color: #d58512;
 }
-/* line 29, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 29, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-warning:active:hover, .btn-warning:active:focus, .btn-warning:active.focus, .btn-warning.active:hover, .btn-warning.active:focus, .btn-warning.active.focus, .open > .btn-warning.dropdown-toggle:hover, .open > .btn-warning.dropdown-toggle:focus, .open > .btn-warning.dropdown-toggle.focus {
   color: #fff;
   background-color: #d58512;
@@ -5153,12 +5153,12 @@ input[type="button"].btn-block {
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
-/* line 13, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_component-animations.scss */
+/* line 13, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_component-animations.scss */
 .fade.in {
   opacity: 1;
 }
 
-/* line 18, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_component-animations.scss */
+/* line 18, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_component-animations.scss */
 .collapse {
   display: none;
 }
@@ -5647,7 +5647,7 @@ tbody.collapse.in {
   border-radius: 0;
 }
 
-/* line 68, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_input-groups.scss */
+/* line 68, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon,
 .input-group-btn {
   width: 1%;
@@ -5853,7 +5853,7 @@ tbody.collapse.in {
 .nav-pills > li + li {
   margin-left: 2px;
 }
-/* line 131, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
+/* line 131, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #337ab7;
@@ -5936,7 +5936,7 @@ tbody.collapse.in {
 .tab-content > .tab-pane {
   display: none;
 }
-/* line 227, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
+/* line 227, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .active {
   display: block;
 }
@@ -5955,7 +5955,7 @@ tbody.collapse.in {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
-/* line 14, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+/* line 14, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .navbar:before, .navbar:after {
   content: " ";
   display: table;
@@ -5965,7 +5965,7 @@ tbody.collapse.in {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 11, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 11, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
     border-radius: 4px;
   }
@@ -6195,7 +6195,7 @@ tbody.collapse.in {
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
   }
-  /* line 257, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 257, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
@@ -6251,7 +6251,7 @@ tbody.collapse.in {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 500, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
+  /* line 500, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .input-group .input-group-addon,
   .navbar-form .input-group .input-group-btn,
   .navbar-form .input-group .form-control {
@@ -6450,7 +6450,7 @@ tbody.collapse.in {
     color: #555;
     background-color: #e7e7e7;
   }
-  /* line 490, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 490, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #ccc;
     background-color: transparent;
@@ -6817,7 +6817,7 @@ a.label:hover, a.label:focus {
 .label-primary {
   background-color: #337ab7;
 }
-/* line 7, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_labels.scss */
+/* line 7, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
   background-color: #286090;
 }
@@ -6826,7 +6826,7 @@ a.label:hover, a.label:focus {
 .label-success {
   background-color: #5cb85c;
 }
-/* line 7, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_labels.scss */
+/* line 7, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-success[href]:hover, .label-success[href]:focus {
   background-color: #449d44;
 }
@@ -6892,7 +6892,7 @@ a.label:hover, a.label:focus {
   color: #337ab7;
   background-color: #fff;
 }
-/* line 47, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_badges.scss */
+/* line 47, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_badges.scss */
 .list-group-item > .badge {
   float: right;
 }
@@ -6956,7 +6956,7 @@ a.badge:hover, a.badge:focus {
     padding-left: 60px;
     padding-right: 60px;
   }
-  /* line 49, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
+  /* line 49, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 63px;
@@ -7151,7 +7151,7 @@ a.thumbnail.active {
   background-size: 40px 40px;
 }
 
-/* line 64, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_progress-bars.scss */
+/* line 64, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress.active .progress-bar,
 .progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
@@ -7374,7 +7374,7 @@ a.list-group-item-success,
 button.list-group-item-success {
   color: #3c763d;
 }
-/* line 15, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_list-group.scss */
+/* line 15, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-success .list-group-item-heading,
 button.list-group-item-success .list-group-item-heading {
   color: inherit;
@@ -7701,7 +7701,7 @@ button.list-group-item-danger.active:focus {
 .panel > .table-responsive + .panel-body {
   border-top: 1px solid #ddd;
 }
-/* line 170, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
+/* line 170, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
 .panel > .table > tbody:first-child > tr:first-child th,
 .panel > .table > tbody:first-child > tr:first-child td {
   border-top: 0;
@@ -7886,7 +7886,7 @@ button.list-group-item-danger.active:focus {
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;
 }
-/* line 14, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
+/* line 14, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-info > .panel-heading .badge {
   color: #d9edf7;
   background-color: #31708f;
@@ -7934,7 +7934,7 @@ button.list-group-item-danger.active:focus {
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ebccd1;
 }
-/* line 14, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
+/* line 14, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-danger > .panel-heading .badge {
   color: #f2dede;
   background-color: #a94442;
@@ -7967,7 +7967,7 @@ button.list-group-item-danger.active:focus {
   border: 0;
 }
 
-/* line 28, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_responsive-embed.scss */
+/* line 28, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_responsive-embed.scss */
 .embed-responsive-16by9 {
   padding-bottom: 56.25%;
 }
@@ -8040,7 +8040,7 @@ button.close {
   overflow: hidden;
 }
 
-/* line 16, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_modals.scss */
+/* line 16, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_modals.scss */
 .modal {
   display: none;
   overflow: hidden;
@@ -8213,7 +8213,7 @@ button.close {
     width: 900px;
   }
 }
-/* line 7, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tooltip.scss */
+/* line 7, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -8273,7 +8273,7 @@ button.close {
   border-radius: 4px;
 }
 
-/* line 36, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tooltip.scss */
+/* line 36, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tooltip.scss */
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -8442,7 +8442,7 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.25);
   bottom: -11px;
 }
-/* line 77, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_popovers.scss */
+/* line 77, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.top > .arrow:after {
   content: " ";
   bottom: 1px;
@@ -8772,7 +8772,7 @@ button.close {
   content: " ";
   display: table;
 }
-/* line 19, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+/* line 19, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .clearfix:after {
   clear: both;
 }
@@ -9026,7 +9026,7 @@ button.close {
 }
 
 @media (min-width: 1200px) {
-  /* line 116, /home/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  /* line 116, /hamlsucks/patrick/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline {
     display: inline !important;
   }
@@ -9145,7 +9145,7 @@ a {
   margin-top: 15px;
 }
 
-/* line 16, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/static_pages.scss */
+/* line 16, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/static_pages.scss */
 .center {
   text-align: center;
   line-height: 2;
@@ -9196,7 +9196,7 @@ a {
   margin-bottom: 80px;
 }
 
-/* line 31, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_banner.scss */
+/* line 31, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_banner.scss */
 .banner-text .btn {
   width: 20%;
   height: 40px;
@@ -9335,7 +9335,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 13, /home/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_signin.scss */
+/* line 13, /hamlsucks/patrick/RubymineProjects/coldNose/app/assets/stylesheets/_signin.scss */
 .form-signin .checkbox {
   font-weight: normal;
   display: inline-block;

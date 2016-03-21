@@ -105,7 +105,7 @@
   margin-left: 0;
 }
 
-/* line 47, /home/ubuntu/workspace/app/assets/stylesheets/_dogGrids.scss */
+/* line 47, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/_dogGrids.scss */
 .smallDog, .smallDogTop, .smallDogBottom {
   width: 100%;
   height: 48.5%;
@@ -118,7 +118,7 @@
   margin: 0;
 }
 
-/* line 57, /home/ubuntu/workspace/app/assets/stylesheets/_dogGrids.scss */
+/* line 57, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/_dogGrids.scss */
 .smallDogTop {
   margin-bottom: 2.5%;
 }
@@ -196,7 +196,7 @@ body {
   z-index: 2;
 }
 
-/* line 29, /home/ubuntu/workspace/app/assets/stylesheets/_signin.scss */
+/* line 29, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/_signin.scss */
 .form-signin input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
@@ -10480,7 +10480,7 @@ a {
   margin-top: 15px;
 }
 
-/* line 18, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+/* line 18, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
 .center {
   text-align: center;
   line-height: 2;
@@ -10491,7 +10491,7 @@ a {
   font-size: 70px;
 }
 
-/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/_banner.scss */
+/* line 1, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/_banner.scss */
 .banner {
   top: -10px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(/assets/pug-5a7f2cf1e086725bc41db05b30e24b2f4c68976875f0a37b40ed9204cb6ee1ff.jpg);
@@ -10506,7 +10506,7 @@ a {
   padding-top: 30vh;
 }
 
-/* line 12, /home/ubuntu/workspace/app/assets/stylesheets/_banner.scss */
+/* line 12, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/_banner.scss */
 .banner-text h1 {
   color: #fff;
   font-size: 7.4em;
@@ -10596,7 +10596,7 @@ a {
   z-index: 1000;
 }
 
-/* line 20, /home/ubuntu/workspace/app/assets/stylesheets/_dogGrids.scss */
+/* line 20, /hamlsucks/ubuntu/workspace/app/assets/stylesheets/_dogGrids.scss */
 .dogTextTop {
   top: 25%;
   opacity: 0;

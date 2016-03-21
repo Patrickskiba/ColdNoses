@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
-
+  before_filter :authenticate_user!, :except => [:index, :home, :show, :list]
   # GET /events
   # GET /events.json
   def index
@@ -12,10 +12,24 @@ class EventsController < ApplicationController
 
   # GET /events/1
   # GET /events/1.json
-
   def show
+
+  end
+  def home
+
+      @home = Event.all.order(:start_time).first(4)
+
   end
 
+  # def countdown
+  #   today = Date.today
+  #   first_event = array[0]
+  #   if first_event > today
+  #     countdown = (first_event - today).to_i
+  #   else
+  #     countdown = (first_event.next_year - today).to_i
+  #   end
+  # end
   # GET /events/new
   def new
     @event = Event.new
@@ -54,7 +68,6 @@ class EventsController < ApplicationController
       end
     end
   end
-
   # DELETE /events/1
   # DELETE /events/1.json
   def destroy
