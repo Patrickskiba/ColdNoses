@@ -83,4 +83,4 @@ test:
 production:
   <<: *default
   database: coldNoses_production
-  localhost: Rails.application.secrets.database_url
+  socket: Rails.application.secrets.database_url
