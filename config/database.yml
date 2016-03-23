@@ -4,9 +4,8 @@ default: &default
   pool: 5
   timeout: 5000
   host: localhost
-  username: tigerwoods
+  user: tigerwoods
   password: E@ten234
-
 development:
   <<: *default
   database: db/coldnoses_development
@@ -16,7 +15,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/coldnoses_test
+  database: <%= ENV["DATABASE_URL"] %>
 
 production:
   <<: *default

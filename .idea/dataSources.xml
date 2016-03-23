@@ -7,7 +7,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/db/coldnoses_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/&lt;%= ENV[&quot;DATABASE_URL&quot;] %&gt;</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="Rails coldNoses: development" uuid="1500de9c-a41e-4f38-93e9-b620f7a4099b">
       <driver-ref>postgresql</driver-ref>

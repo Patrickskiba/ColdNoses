@@ -11,10 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160319221240) do
+ActiveRecord::Schema.define(version: 20160323004704) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "adminpack"
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"

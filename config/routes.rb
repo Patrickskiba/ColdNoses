@@ -3,7 +3,12 @@ Rails.application.routes.draw do
     collection do
       get 'show'
     end
-  end
+    end
+    resources :contacts do
+      collection do
+        get 'new'
+      end
+    end
   root 'events#home'
   ActiveAdmin.routes(self)
   devise_for :admin_users, ActiveAdmin::Devise.config
