@@ -28,7 +28,7 @@
             %li
               = link_to 'Volunteer', dogs_path, :class => 'navbar-link'
             %li
-              = link_to 'Contact Us', contact_u_path, :class => 'navbar-link'
+              = link_to 'Contact Us', new_contact_u_path, :class => 'navbar-link'
               - if user_signed_in?
                 Logged in as
                 = succeed "." do
