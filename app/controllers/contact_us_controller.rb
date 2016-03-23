@@ -11,7 +11,7 @@ class ContactUsController < InheritedResources::Base
   def create
     @contact = ContactU.new(secure_params)
     if @contact.valid?
-      UserMailer.contact_email(@contact).deliver
+      ApplicationMailer.contact_email(@contact).deliver
       flash[:notice] = "Message sent from #{@contact.name}."
       redirect_to root_path
     else
