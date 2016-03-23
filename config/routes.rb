@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+
   resources :dogs do
     collection do
-      get 'show'
+      get 'list'
     end
     end
-    resources :contacts do
+    resources :contact_us do
       collection do
         get 'new'
       end
