@@ -2,8 +2,10 @@ Rails.application.routes.draw do
 
   resources :dogs do
     collection do
-      get 'list'
+      get 'index'
     end
+    get '/therapyTeam', :to => redirect('static_pages/therapyTeam.html.erb')
+    get '/readTeam', :to => redirect('static_pages/readTeam.html.erb')
     end
     resources :contact_us do
       collection do
