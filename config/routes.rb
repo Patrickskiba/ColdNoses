@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     end
     resources :contact_us do
       collection do
-        get 'create'
+        get 'new'
       end
     end
   root 'events#home'

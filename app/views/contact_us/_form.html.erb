@@ -1,5 +1,5 @@
 <div class="col-md-5">
-  <% if current_page?(new_contact_u_path) %>
+  <% if current_page?(contact_us_path) %>
       <h1>Contact Us</h1>
   <% else %>
       <h1>Editing your message</h1>
@@ -7,7 +7,7 @@
   <%= form_for(@contact) do |f| %>
       <% if @contact.errors.any? %>
           <div id="error_explanation">
-            <h2><%= pluralize(event.errors.count, "error") %> prohibited this message from being saved:</h2>
+            <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this message from being saved:</h2>
 
             <ul>
               <% @contact.errors.full_messages.each do |message| %>
@@ -34,7 +34,7 @@
       <div class="actions">
         <% f.label :submit, "Contact Us" %>
         <%= f.submit class:"btn btn-warning" %>
-        <%= link_to 'Back', events_path, class: "btn btn-success" %>
+        <%= link_to 'Back', root_path, class: "btn btn-success" %>
       </div>
   <% end %>
 </div>

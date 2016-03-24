@@ -1,22 +1,39 @@
-<%= simple_form_for(@dog) do |f| %>
-  <%= f.error_notification %>
+<div class="col-md-5">
+  <% if current_page?(new_dog_path) %>
+    <h1>New Dog</h1>
+  <% else %>
+    <h1>Editing Dog</h1>
+  <% end %>
+  <%= form_for(@dog) do |f| %>
+      <% if @dog.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(@dog.errors.count, "error") %> prohibited this message from being saved:</h2>
 
+            <ul>
+              <% @dog.errors.full_messages.each do |message| %>
+                  <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+      <% end %>
   <div class="form-inputs">
-    <%= f.input :name %>
-    <%= f.input :breed %>
-    <%= f.input :age %>
-    <%= f.input :cgc %>
-    <%= f.input :registration %>
-    <%= f.input :therapy_group %>
-    <%= f.input :renewal_date %>
-    <%= f.input :image %>
-    <%= f.input :description %>
-    <%= f.input :gender %>
-    <%= f.input :member %>
-    <%= f.input :retired %>
+    <%= f.input :name, autofocus: true, class:"form-control" %>
+    <%= f.input :breed, class:"form-control" %>
+    <%= f.input :age, class:"form-control"%>
+    <%= f.input :cgc, class:"form-control" %>
+    <%= f.input :registration, class:"form-control" %>
+    <%= f.input :therapy_group, class:"form-control" %>
+    <%= f.input :renewal_date, class:"form-control" %>
+    <%= f.file_field :image, class:"form-control" %>
+    <%= f.input :description, class:"form-control" %>
+    <%= f.input :gender, class:"form-control" %>
+    <%= f.input :member, class:"form-control" %>
+    <%= f.input :retired, class:"form-control" %>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.button :submit, class:"btn btn-warning" %>
+    <%= link_to 'Back', dogs_path, class: "btn btn-success" %>
   </div>
-<% end %>
+  <% end %>
+</div>
