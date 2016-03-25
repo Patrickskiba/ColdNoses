@@ -14,7 +14,7 @@
 <h1>Dogs</h1>
 <div class="row">
   <div class="container-fluid">
-    <%= @dogs.each do |puppy| %>
+    <% @dogs.each do |puppy| %>
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail"><%= image_tag puppy.image %></div>
       <div class="caption">
