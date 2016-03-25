@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c3b74d-4c89-4d1c-b49c-a208cffedb55" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb" />
     </list>
     <ignored path="coldNoses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readTeam.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readTeam.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20215634">
-              <caret line="8" column="162" selection-start-line="8" selection-start-column="162" selection-end-line="8" selection-end-column="162" />
+            <state vertical-scroll-proportion="-12.333333">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="therapyTeam.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.67654985">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -171,8 +183,8 @@
         <option value="$PROJECT_DIR$/app/views/puppies/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/dog.rb" />
         <option value="$PROJECT_DIR$/app/models/puppy.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb" />
       </list>
     </option>
   </component>
@@ -1145,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88948786">
-          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/puppy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1187,8 +1191,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20215634">
-          <caret line="8" column="162" selection-start-line="8" selection-start-column="162" selection-end-line="8" selection-end-column="162" />
+        <state vertical-scroll-proportion="-12.333333">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67654985">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding />
         </state>
       </provider>
