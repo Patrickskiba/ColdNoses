@@ -1,5 +1,5 @@
 class Event < ApplicationRecord
-  def todaydate
+  def current_date
     Date.today
   end
 end
