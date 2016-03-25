@@ -8,13 +8,12 @@ class PuppiesController < InheritedResources::Base
     @puppies = Puppy.all
   end
   def show
-    @puppy = Puppy.all.find(:id)
   end
   def new
     @puppy = Puppy.new
   end
   def edit
-    @puppy = Puppy.all.find(:id)
+
   end
   def create
     @puppy = Puppy.new(puppy_params)

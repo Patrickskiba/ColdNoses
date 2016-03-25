@@ -1,8 +1,8 @@
 <div class="col-md-5">
-  <% if current_page?(new_dog_path) %>
-      <h1>New Dog</h1>
+  <% if current_page?(new_puppy_path) %>
+      <h1>New Puppy</h1>
   <% else %>
-      <h1>Editing Dog</h1>
+      <h1>Editing Puppy</h1>
   <% end %>
   <%= form_for(@puppy) do |f| %>
       <% if @puppy.errors.any? %>
