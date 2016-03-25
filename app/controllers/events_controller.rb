@@ -16,9 +16,9 @@ class EventsController < ApplicationController
 
   end
   def home
-
+  if Event.Date > today.Date
       @home = Event.all.order(:start_time).first(4)
-
+  end
   end
 
   # def countdown

@@ -1,8 +1,8 @@
 <div id="row main center">
   <h1>Upcoming Events</h1>
 </div>
-<% @home.each do |event| %>
 <div id="row container-fluid">
+  <% @home.each do |event| %>
   <div id="col-sm-6 col-md-3">
     <div id="thumbnail"><%= image_tag("eventdog1.jpg") %></div>
     <div id="caption">
@@ -12,8 +12,8 @@
       <p><%= event.end_time.strftime("%m/%d/%Y %H:%m %p") %></p>
     </div>
   </div>
+  <% end %>
 </div>
-<% end %>
 <div id="container greygrid">
   <div id="col-md-2">
     <div id="col-md-8 center">
