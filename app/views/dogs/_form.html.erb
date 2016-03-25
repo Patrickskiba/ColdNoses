@@ -16,21 +16,54 @@
             </ul>
           </div>
       <% end %>
-  <div class="form-inputs">
-    <%= f.input :name, autofocus: true, class:"form-control" %>
-    <%= f.input :breed, class:"form-control" %>
-    <%= f.input :age, class:"form-control"%>
-    <%= f.input :cgc, class:"form-control" %>
-    <%= f.input :registration, class:"form-control" %>
-    <%= f.input :therapy_group, class:"form-control" %>
-    <%= f.input :renewal_date, class:"form-control" %>
-    <%= f.file_field :image, class:"form-control" %>
-    <%= f.input :description, class:"form-control" %>
-    <%= f.input :gender, class:"form-control" %>
-    <%= f.input :member, class:"form-control" %>
-    <%= f.input :retired, class:"form-control" %>
-  </div>
-
+      <div class="field">
+        <%= f.label :name %>
+        <%= f.text_field :name, autofocus: true, class: "form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :breed %>
+        <%= f.text_field :breed, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :age %>
+        <%= f.text_field :age, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :cgc %>
+        <%= f.text_field :registration, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :registration %>
+        <%= f.text_field :registration, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :therapy_group %>
+        <%= f.text_field :therapy_group, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :renewal_date %>
+        <%= f.date_select :renewal_date, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :image %>
+        <%= f.file_field :image, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :description %>
+        <%= f.text_area :description, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :gender %>
+        <%= f.text_field :gender, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :member %>
+        <%= f.text_field :member, class:"form-control" %>
+      </div>
+      <div class="field">
+        <%= f.label :retired %>
+        <%= f.check_box :retired, class:"form-control" %>
+      </div>
   <div class="form-actions">
     <%= f.button :submit, class:"btn btn-warning" %>
     <%= link_to 'Back', dogs_path, class: "btn btn-success" %>
