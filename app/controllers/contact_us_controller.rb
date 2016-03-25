@@ -9,7 +9,7 @@ class ContactUsController < ApplicationController
     @contact = ContactU.new
   end
   def create
-    @contact = ContactU.new(contact_us_params)
+    @contact = ContactU.new(contact_u_params)
     if @contact.valid?
       ApplicationMailer.contact_email(@contact).deliver
       flash[:notice] = "Message sent from #{@contact.name}."
@@ -18,12 +18,11 @@ class ContactUsController < ApplicationController
       render :new
     end
   end
-
   private
   def set_contact_u
     @contact = ContactU.find(params[:id])
   end
-    def contact_us_params
+    def contact_u_params
       params.require(:contact).permit(:first_name, :last_name, :email, :content)
     end
 end

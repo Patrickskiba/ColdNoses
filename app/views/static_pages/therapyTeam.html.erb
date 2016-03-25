@@ -1,3 +1,5 @@
+<%= stylesheet_link_tag 'nonHomeNav', media: 'print, screen' %>
+<div class="container belowNav">
 <% provide(:title, "Therapy Team") %>
 <h1>Becoming a Therapy Team</h1>
 <p>Becoming a therapy animal team is a rewarding volunteer activity for everyone involved.
@@ -23,4 +25,5 @@
   Many organizations offer classes on these subjects and some require them before you will be allowed to visit.</p>
 
 <!-- The href redirect to the CONTACT US page-->
-<p>If you have any questions, or would like more information <%= link_to 'please contact us', contact_u_path %></p><%= link_to dog_path %>
+<p>If you have any questions, or would like more information <%= link_to 'please contact us', contact_us_path %></p><%= link_to 'Back', dogs_path %>
+  </div>

@@ -4,9 +4,10 @@ Rails.application.routes.draw do
     collection do
       get 'index'
     end
-    get '/therapyTeam', :to => redirect('static_pages/therapyTeam.html.erb')
-    get '/readTeam', :to => redirect('static_pages/readTeam.html.erb')
-    end
+  end
+  get 'therapyTeam' => 'static_pages#therapyTeam.html.erb'
+  get 'readTeam' => 'static_pages#readTeam.html.erb'
+  get 'donate' => 'static_pages#donate.html.erb'
     resources :contact_us do
       collection do
         get 'new'

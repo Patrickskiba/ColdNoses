@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
   def readTeam
   get readTeam
   end
+  def donate
+    get donate
+  end
 end
