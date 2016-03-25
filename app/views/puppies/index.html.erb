@@ -14,7 +14,7 @@
     <div class="container-fluid">
       <% @puppies.each do |puppy| %>
           <div class="col-sm-6 col-md-3">
-            <div class="thumbnail"><%= image_tag (puppy.image.to_s) %></div>
+            <div class="thumbnail"><%= image_tag (puppy.image) %></div>
             <div class="caption">
               <h3><%= puppy.name %></h3>
               <h5><%= puppy.age %>,   <%= puppy.gender %>, <%= puppy.breed %></h5>
