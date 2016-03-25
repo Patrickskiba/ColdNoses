@@ -14,14 +14,14 @@
   </thead>
 
   <tbody>
-    <% @contact_us.each do |contact_u| %>
+    <% @contact.each do |contact_u| %>
       <tr>
         <td><%= contact_u.first_name %></td>
         <td><%= contact_u.last_name %></td>
         <td><%= contact_u.email %></td>
         <td><%= contact_u.content %></td>
         <td><%= link_to 'Show', contact_u %></td>
-        <td><%= link_to 'Edit', edit_contact_u_path(contact_u) %></td>
+        <td><%= link_to 'Edit', edit_contact_path(contact_u) %></td>
         <td><%= link_to 'Destroy', contact_u, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Contact U', new_contact_u_path %>
+<%= link_to 'New Contact', new_contact_path %>
