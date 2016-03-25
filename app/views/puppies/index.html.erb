@@ -23,8 +23,8 @@
               <p>
 
               <%= link_to 'Show', puppy, class:"btn btn-success" %>
-              <%= link_to 'Edit', edit_puppy_path(puppy) %>
-              <%= link_to 'Destroy', puppy, method: :delete, data: { confirm: 'Are you sure?' } %>
+              <%= link_to 'Edit', edit_puppy_path(puppy), class:"btn btn-warning" %>
+              <%= link_to 'Destroy', puppy, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %>
                 <% end %>
               </p>
             </div>
