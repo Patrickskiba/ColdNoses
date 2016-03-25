@@ -1,18 +1,11 @@
 Rails.application.routes.draw do
 
-  resources :dogs do
-    collection do
-      get 'index'
-    end
-  end
+  resources :puppies
+  resources :dogs
   get 'therapyTeam' => 'static_pages#therapyTeam.html.erb'
   get 'readTeam' => 'static_pages#readTeam.html.erb'
   get 'donate' => 'static_pages#donate.html.erb'
-    resources :contacts do
-      collection do
-        get 'new'
-      end
-    end
+    resources :contacts
   root 'events#home'
   ActiveAdmin.routes(self)
   devise_for :admin_users, ActiveAdmin::Devise.config

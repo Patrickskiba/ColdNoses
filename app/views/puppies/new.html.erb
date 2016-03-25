@@ -1,0 +1,8 @@
+<%= stylesheet_link_tag 'nonHomeNav', media: 'print, screen' %>
+<div class="container belowNav">
+<h1>New Puppy</h1>
+
+<%= render 'form', puppy: @puppy %>
+
+<%= link_to 'Back', puppies_path %>
+</div>
