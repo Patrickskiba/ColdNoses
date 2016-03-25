@@ -1,25 +1,21 @@
 class PuppiesController < InheritedResources::Base
   before_action :set_puppy, only: [ :show, :edit, :update, :destroy]
   before_filter :authenticate_user!, :except => [:index, :create, :new, :show, :list]
-  # GET /events
-  # GET /events.json
   def index
     @puppies = Puppy.all
   end
   def list
     @puppies = Puppy.all
   end
-
+  def show
+    @puppy = Puppy.all.find(:id)
+  end
   def new
     @puppy = Puppy.new
   end
-
-  # GET /events/1/edit
   def edit
+    @puppy = Puppy.all.find(:id)
   end
-
-  # POST /events
-  # POST /events.json
   def create
     @puppy = Puppy.new(puppy_params)
 
@@ -33,9 +29,6 @@ class PuppiesController < InheritedResources::Base
       end
     end
   end
-
-  # PATCH/PUT /events/1
-  # PATCH/PUT /events/1.json
   def update
     respond_to do |format|
       if @puppy.update(puppy_params)
@@ -47,8 +40,6 @@ class PuppiesController < InheritedResources::Base
       end
     end
   end
-  # DELETE /events/1
-  # DELETE /events/1.json
   def destroy
     @puppy.destroy
     respond_to do |format|
@@ -56,8 +47,6 @@ class PuppiesController < InheritedResources::Base
       format.json { head :no_content }
     end
   end
-
-
   private
   def set_puppy
     @puppy = Puppy.find(params[:id])
