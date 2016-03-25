@@ -16,7 +16,8 @@ class EventsController < ApplicationController
 
   end
   def home
-      @home = Event.where("start_time >= :todaydate", {todaydate: params[Date.today]}).order(:start_time).first(4)
+     # @home = Event.find_by_sql(SELECT TOP(4),(events.title, events.description, events.start_time) FROM events WHERE (start_time >= Date.today) ORDER_BY start_time ASC;
+      @home = Event.where("start_time >= :todaydate", {todaydate: params[DateTime.today]}).order(:start_time).first(4)
   end
 
   # def countdown
