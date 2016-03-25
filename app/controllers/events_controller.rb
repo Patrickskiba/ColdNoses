@@ -16,8 +16,7 @@ class EventsController < ApplicationController
 
   end
   def home
-    date = Date.today
-      @home = Event.all.where('start_time >= :date', {date: params[:date]}).order(:start_time).first(4)
+      @home = Event.all.where('start_time >= :date', {date: params[Date.today]}).order(:start_time).first(4)
   end
 
   # def countdown
