@@ -1,7 +1,10 @@
 <%= stylesheet_link_tag 'nonHomeNav', media: 'print, screen' %>
 <div class="container belowNav">
   <p id="notice"><%= notice %></p>
+  <div class="row">
+    <div class="container-fluid">
 
+      <div class="col-sm-6 col-md-3">
   <p>
     <strong>Title:</strong>
     <%= @event.title %>
@@ -26,4 +29,7 @@
   <%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %> |
   <%= link_to 'Back', events_path, class: "btn btn-success" %>
       <% end %>
+</div>
+</div>
+</div>
 </div>
