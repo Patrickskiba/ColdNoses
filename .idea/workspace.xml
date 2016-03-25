@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c3b74d-4c89-4d1c-b49c-a208cffedb55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/therapyTeam.html.erb" />
     </list>
     <ignored path="coldNoses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +61,8 @@
       <file leaf-file-name="readTeam.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5660377">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.20215634">
+              <caret line="8" column="162" selection-start-line="8" selection-start-column="162" selection-end-line="8" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -1189,8 +1187,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/readTeam.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5660377">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.20215634">
+          <caret line="8" column="162" selection-start-line="8" selection-start-column="162" selection-end-line="8" selection-end-column="162" />
           <folding />
         </state>
       </provider>
