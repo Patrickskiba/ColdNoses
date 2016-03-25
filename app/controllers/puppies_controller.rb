@@ -1,6 +1,6 @@
 class PuppiesController < InheritedResources::Base
-  before_action :set_puppy, only: [:show, :edit, :update, :destroy]
-  before_filter :authenticate_user!, :except => [:index, :home,:create, :new, :show, :list]
+  before_action :set_puppy, only: [ :show, :edit, :update, :destroy]
+  before_filter :authenticate_user!, :except => [:index, :create, :new, :show, :list]
   # GET /events
   # GET /events.json
   def index
@@ -64,7 +64,7 @@ class PuppiesController < InheritedResources::Base
   end
 
   def puppy_params
-      params.require(:puppy).permit()
+      params.require(:puppy).permit(:name, :breed, :age, :cgc, :registration, :therapy_group, :renewal_date, :image, :description, :gender, :member, :retired)
     end
 end
 
