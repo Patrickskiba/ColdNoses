@@ -1,4 +1,6 @@
 class ContactUsController < ApplicationController
+  before_action :set_event, only: [:show, :edit, :update, :destroy]
+  before_filter :authenticate_user!, :except => [:index, :create, :new, :show, :list]
   def index
     @contacts = ContactU.all
   end
@@ -18,6 +20,7 @@ class ContactUsController < ApplicationController
       render :new
     end
   end
+
   private
   def set_contact_u
     @contact = ContactU.find(params[:id])
