@@ -5,11 +5,11 @@
 <ol>
   <li>You must be a registered therapy dog team to become a R.E.A.D. team. Register with an animal assisted therapy group. This will give you insurance during a visit, and some of the training you need to become a R.E.A.D. team.  Some animal assisted therapy groups are Intermountain Therapy Animals (www.therapyanimals.org.), Therapy Dogs Incorporated (www.therapydogs.com) and Delta Society (www.deltasociety.org).</li>
   <!--href to contact page -->
-  <li><a href="coldnoses.herokuapps.com"> Contact Cold Noses, Warm Hearts</a> to find out when and where the next R.E.A.D. training will be held. </li>
-  <li>Or contact Intermountain Therapy to find out how you can purchase materials online  (<a href="http://www.therapyanimals.org/Home.html">www.therapyanimals.org</a>).</li>
+  <li> Contact <%= link_to 'Cold Noses, Warm Hearts', root_path, class:'linked' %> to find out when and where the next R.E.A.D. training will be held. </li>
+  <li>Or contact <%= link_to 'Intermountain Therapy Animals', "http://www.therapyanimals.org", class:"linked"%>to find out how you can purchase materials online.</li>
   <li>Once you complete the necessary training and receive your R.E.A.D. certificate you will need to register with ITA</li>
   <li>Once your paperwork is received, it is reviewed and if everything is there, ITA will send you your membership card, R.E.A.D. dog tag, and letter saying you are registered with the R.E.A.D. program. It usually takes 1 to 2 weeks for you to receive this packet</li>
 </ol>
 <!-- The href redirect to the CONTACT US page-->
-<p>If you have any questions, or would like more information <%= link_to 'please contact us', contacts_path, class:'linked' %></p><%= link_to 'Back', dogs_path, class:'linked' %>
+<p>If you have any questions, or would like more information <%= link_to 'please contact us', contacts_path, class:'linked' %></p><%= link_to 'Back', puppies_path, class:'linked' %>
 </div>
