@@ -21,7 +21,8 @@
     <strong>End time:</strong>
     <%= @event.end_time.strftime("%m/%d/%Y %H:%m %p") %>
   </p>
-
+  <% if user_signed_in? %>
   <%= link_to 'Edit', edit_event_path(@event), class: "btn btn-warning" %> |
   <%= link_to 'Back', events_path, class: "btn btn-success" %>
+      <% end %>
 </div>
