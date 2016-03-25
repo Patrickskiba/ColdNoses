@@ -20,7 +20,7 @@ class ContactUsControllerTest < ActionDispatch::IntegrationTest
       post contact_us_url, params: { contact_u: { content: @contact_u.content, email: @contact_u.email, first_name: @contact_u.first_name, last_name: @contact_u.last_name } }
     end
 
-    assert_redirected_to contact_u_path(ContactU.last)
+    assert_redirected_to contact_u_path(Contact.last)
   end
 
   test "should show contact_u" do

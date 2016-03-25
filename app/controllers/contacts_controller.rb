@@ -1,17 +1,17 @@
-class ContactUsController < ApplicationController
+class ContactsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
   before_filter :authenticate_user!, :except => [:index, :create, :new, :show, :list]
   def index
-    @contacts = ContactU.all
+    @contacts = Contact.all
   end
    def list
-    @contacts = ContactU.all
+    @contacts = Contact.all
    end
   def new
-    @contact = ContactU.new
+    @contact = Contact.new
   end
   def create
-    @contact = ContactU.new(contact_u_params)
+    @contact = Contact.new(contact_params)
     if @contact.valid?
       ApplicationMailer.contact_email(@contact).deliver
       flash[:notice] = "Message sent from #{@contact.name}."
@@ -22,10 +22,10 @@ class ContactUsController < ApplicationController
   end
 
   private
-  def set_contact_u
-    @contact = ContactU.find(params[:id])
+  def set_contact
+    @contact = Contact.find(params[:id])
   end
-    def contact_u_params
+    def contact_params
       params.require(:contact).permit(:first_name, :last_name, :email, :content)
     end
 end
