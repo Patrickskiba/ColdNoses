@@ -19,7 +19,7 @@
       <% if user_signed_in? %>
           <div class="field">
             <%= f.label :name %>
-            <%= f.text_field :name, :value =>'current_user.first_name', autofocus: true, class: "form-control" %>
+            <%= f.text_field :name, :value => current_user.first_name, autofocus: true, class: "form-control" %>
           </div>
 
           <div class="field">
