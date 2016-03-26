@@ -45,14 +45,8 @@ $dog-opacity: 0.8;
   }
 }
 .smallDog {
-  width: 10%;
-  height: 10%;
-  &:hover {
-    -webkit-filter: brightness(50%);
-    width: 102%;
-    height: 50%;
-    margin: 0;
-  }
+  width: 10px;
+  height: 10px;
 }
 .smallDogTop {
   margin-bottom:2.5%;
