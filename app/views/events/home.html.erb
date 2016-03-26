@@ -4,14 +4,14 @@
 <div id="row">
      <div class="container-fluid">
   <% @home.each do |event| %>
-  <div id="col-md-3">
-    <div id="caption">
+    <div class="col-md-3 col-sm-6">
+      <div id="caption">
       <h4><%= event.title %></h4>
       <h3><%= event.description %></h3>
       <p><%= event.start_time.strftime("%m/%d/%Y %H:%m %p") %></p>
       <p><%= event.end_time.strftime("%m/%d/%Y %H:%m %p") %></p>
+      </div>
     </div>
-  </div>
   <% end %>
   </div>
 </div>
