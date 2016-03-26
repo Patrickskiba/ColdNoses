@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  before_action :set_event, only: [:show, :edit, :update, :destroy]
+  before_action :set_contact, only: [:show, :edit, :create,]
   before_filter :authenticate_user!, :except => [:index, :create, :new, :show, :list]
   def index
     @contacts = Contact.all
