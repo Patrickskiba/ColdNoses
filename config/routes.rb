@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   get 'therapyTeam' => 'static_pages#therapyTeam.html.erb'
   get 'readTeam' => 'static_pages#readTeam.html.erb'
   get 'donate' => 'static_pages#donate.html.erb'
-  get 'membership' => 'static_pages#membershipapplicationfinal.pdf'
     resources :contacts
   root 'events#home'
   ActiveAdmin.routes(self)
