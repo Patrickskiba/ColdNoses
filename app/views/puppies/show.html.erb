@@ -8,15 +8,15 @@
             <div class="thumbnail"><%= image_tag (@puppy.image) %></div>
             <div class="caption">
               <h3><strong>Name:</strong> <%= @puppy.name %></h3>
-              <p>Age: <%= @puppy.age %>,</p>  <br>
-              <p>Gender: <%= @puppy.gender %>,</p><br>
-              <p>Breed: <%= @puppy.breed %></p><br>
-              <p>Description: <%= @puppy.description %></p><br>
-              <p>Canine Good Citizen: <%= @puppy.cgc %></p><br>
-              <p>Therapy Group: <%= @puppy.therapy_group %></p><br>
-              <p>Renewal Date: <%= @puppy.renewal_date %></p><br>
-              <p>Member: <%= @puppy.member %></p><br>
-              <p>Retired: <%= @puppy.retired %></p><br>
+              <p><strong>Age: </strong><%= @puppy.age %>,</p>  <br>
+              <p><strong>Gender: </strong><%= @puppy.gender %>,</p><br>
+              <p><strong>Breed: </strong><%= @puppy.breed %></p><br>
+              <p><strong>Description: </strong><%= @puppy.description %></p><br>
+              <p><strong>Canine Good Citizen: </strong><%= @puppy.cgc %></p><br>
+              <p><strong>Therapy Group: </strong><%= @puppy.therapy_group %></p><br>
+              <p><strong>Renewal Date: </strong><%= @puppy.renewal_date %></p><br>
+              <p><strong>Member: </strong><%= @puppy.member %></p><br>
+              <p><strong>Retired: </strong><%= @puppy.retired %></p><br>
 
               <% if admin_user_signed_in? %>
                   <p>
