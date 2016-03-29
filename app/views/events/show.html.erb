@@ -34,11 +34,9 @@
       <%= render 'comments/form' %>
     </p>
 
-  <% if user_signed_in? %><!-- admin user -->
   <%= link_to 'Edit', edit_event_path(@event), class: "btn btn-warning" %> |
   <%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %> |
   <%= link_to 'Back', events_path, class: "btn btn-success" %>
-      <% end %>
       <% end %>
 </div>
 </div>
