@@ -6,28 +6,39 @@
 
       <div class="col-sm-6 col-md-3">
   <p>
-    <strong>Title:</strong>
+    <strong>Title: </strong>
     <%= @event.title %>
   </p>
 
   <p>
-    <strong>Description:</strong>
+    <strong>Description: </strong>
     <%= @event.description %>
   </p>
 
   <p>
-    <strong>Start time:</strong>
+    <strong>Start time: </strong>
     <%= @event.start_time.strftime("%m/%d/%Y %H:%m %p") %>
   </p>
 
   <p>
-    <strong>End time:</strong>
+    <strong>End time: </strong>
     <%= @event.end_time.strftime("%m/%d/%Y %H:%m %p") %>
   </p>
-  <% if user_signed_in? %>
+    <p>
+      <strong>Comments: </strong>
+      <%= render @events.comments %>
+    </p>
+    <% if user_signed_in? %>
+    <p>
+      <strong>Add a comment: </strong>
+      <%= render 'comments/form' %>
+    </p>
+
+  <% if user_signed_in? %><!-- admin user -->
   <%= link_to 'Edit', edit_event_path(@event), class: "btn btn-warning" %> |
   <%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %> |
   <%= link_to 'Back', events_path, class: "btn btn-success" %>
+      <% end %>
       <% end %>
 </div>
 </div>
