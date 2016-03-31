@@ -25,7 +25,6 @@
     <%= @event.end_time.strftime("%m/%d/%Y %H:%m %p") %>
   </p>
     <p>
-      <strong>Comments: </strong>
       <%= render @event.comments %>
     </p>
     <% if user_signed_in? %>

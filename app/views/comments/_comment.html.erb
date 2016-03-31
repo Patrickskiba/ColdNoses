@@ -6,12 +6,9 @@
   <strong>Comment:</strong>
   <%= comment.comment %>
 </p>
+
 <p>
-  <strong>Author:</strong>
-  <%= comment.user_name %>
-</p>
-<p>
-  <%=link_to 'Destroy Comment', [comment.article, comment],
+  <%=link_to 'Destroy Comment', [comment.event, comment],
              method: :delete,
              data: {confirm: 'Are you sure?' } %>
 </p>
