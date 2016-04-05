@@ -34,7 +34,7 @@
     </div>
   </div>
 <br>
-  <% if user_signed_in? %>
+  <% if current_user.try(:admin?) %>
   <%= link_to 'New Puppy', new_puppy_path, class:"btn btn-success" %>
       <% end %>
 </div>
