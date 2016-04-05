@@ -20,7 +20,7 @@
               <h3><%= puppy.name %></h3>
               <h5><%= puppy.age %>,   <%= puppy.gender %>, <%= puppy.breed %></h5>
               <p><%= puppy.description %></p>
-              <% if current_user.try(admin?) %>
+              <% if current_user.try(:admin?) %>
               <p>
 
               <%= link_to 'Show', puppy, class:"btn btn-success" %>|

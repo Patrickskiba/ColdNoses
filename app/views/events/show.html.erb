@@ -27,7 +27,7 @@
     <p>
       <%= render @event.comments %>
     </p>
-    <% if current_user.try(admin?) %>
+    <% if current_user.try(:admin?) %>
     <p>
       <strong>Add a comment: </strong>
       <%= render 'comments/form' %>
