@@ -18,7 +18,7 @@
               <p><strong>Member: </strong><%= @puppy.member %></p><br>
               <p><strong>Retired: </strong><%= @puppy.retired %></p><br>
 
-              <% if admin_user_signed_in? %>
+              <% if current_user.try(admin?) %>
                   <p>
                     <%= link_to 'Edit', edit_puppy_path(@puppy), class:"btn btn-warning" %>|
                     <%= link_to 'Destroy', @puppy, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger" %>|
