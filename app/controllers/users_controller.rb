@@ -12,8 +12,9 @@ class UsersController < ApplicationController
   end
   def create
     if @user.valid?
+      @gibbon = Rails.application.secrets.mailchimp_api_key
       @list_id = Rails.application.secrets.mailchimp_list_id
-      @result = gibbon.list(@list_id).members.create(
+      @result = @gibbon.list(@list_id).members.create(
           body:{
               email_address: @user.email,
               status: 'subscribed',
