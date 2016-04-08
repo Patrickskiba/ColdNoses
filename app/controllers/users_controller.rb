@@ -11,9 +11,15 @@ class UsersController < ApplicationController
     end
   end
   def create
-    @user = MailList.new(secure_params)
     if @user.valid?
-      @user.subscribe
+      @list_id = Rails.application.secrets.mailchimp_list_id
+      @result = gibbon.list(@list_id).members.create(
+          body:{
+              email_address: @user.email,
+              status: 'subscribed',
+              merge_fields: {FNAME: @user.first_name, LNAME: @user.last_name}
+          })
+      Rails.logger.info("Subscribed #{self.email} to MailChimp") if @result = true
       flash[:notice] = "Signed up #{@user.email}."
       redirect_to root_path
     else
