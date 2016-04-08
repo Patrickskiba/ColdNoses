@@ -1,7 +1,13 @@
 class UsersController < ApplicationController
   before_filter :authenticate_user!
 
-
+  def update
+    if params[:user][:password].blank?
+      params[:user].delete("password")
+      params[:user].delete("password_confirmation")
+    end
+    super
+  end
   def index
     @users = User.all
   end
