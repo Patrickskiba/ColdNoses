@@ -5,10 +5,11 @@ class MailList < ApplicationRecord
   def subscribe
     mailchimp = Gibbon::Request.new(api_key: Rails.application.secrets.mailchimp_api_key)
     list_id = Rails.application.secrets.mailchimp_list_id
-    result = mailchimp.list(list_id).members.create(
+    result = gibbon.list(list_id).members.create(
              body:{
                  email_address: self.email,
-                 status: 'subscribed'
+                 status: 'subscribed',
+                 merge_fields: {FNAME: self.first_name, LNAME: self.last_name}
              })
     Rails.logger.info("Subscribed #{self.email} to MailChimp") if result
   end
