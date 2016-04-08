@@ -16,24 +16,17 @@ class EventsController < ApplicationController
 
   end
   def home
-#       @home = Event.find_by_sql("SELECT *
-# FROM eventsWHERE events.start_time>= todaydate
-# ORDER_BY events.start_time ASC  LIMIT 4"")
-      @home = Event.where("start_time >= ?", Time.now).order(:start_time).last(4)
-      # if @home.start_time >= Date.today
-      # @home= self.next(4)
-      # end
+      @home = Event.where("start_time >= ?", Time.now).order(:start_time).first(4)
   end
 
-  # def countdown
-  #   today = Date.today
-  #   first_event = array[0]
-  #   if first_event > today
-  #     countdown = (first_event - today).to_i
-  #   else
-  #     countdown = (first_event.next_year - today).to_i
-  #   end
-  # end
+   def countdown
+     @first_event = @home[0]
+     if @first_event >= Time.now
+       @countdown = (@first_event - Time.now).to_i
+     else
+       @countdown = (@first_event.next_year - Time.now).to_i
+     end
+   end
   # GET /events/new
   def new
     @event = Event.new
