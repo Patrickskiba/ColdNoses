@@ -22,12 +22,17 @@
   margin-right: 0.7vw;
   text-transform: uppercase;
 }
+.fpadding{
+  padding-bottom: 250px;
+}
 .footer-inverse{
   background: rgba(0,0,0,0.8);
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  margin-top: auto;
+  margin-top: 50px;
+  clear:both;
+  height: 210px;
 }
 .footer-inception{
   background: rgba(0,0,0,0.8);
