@@ -16,11 +16,10 @@ class EventsController < ApplicationController
 
   end
   def home
-
 #       @home = Event.find_by_sql("SELECT *
 # FROM eventsWHERE events.start_time>= todaydate
 # ORDER_BY events.start_time ASC  LIMIT 4"")
-      @home = Event.all.order(:start_time).last(4)
+      @home = Event.where("start_time >= ?", Time.now).order(:start_time).last(4)
       # if @home.start_time >= Date.today
       # @home= self.next(4)
       # end
