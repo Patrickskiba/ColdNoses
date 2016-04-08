@@ -16,12 +16,12 @@ class UsersController < ApplicationController
       @list_id = Rails.application.secrets.mailchimp_list_id
       @result = @gibbon.list(@list_id).members.create(
           body:{
-              email_address: @user.email,
+              email_address: self.email,
               status: 'subscribed',
-              merge_fields: {FNAME: @user.first_name, LNAME: @user.last_name}
+              merge_fields: {FNAME: self.first_name, LNAME: self.last_name}
           })
-      Rails.logger.info("Subscribed #{self.email} to MailChimp") if @result = true
-      flash[:notice] = "Signed up #{@user.email}."
+      Rails.logger.info("Subscribed #{self.email} to MailChimp") if @result
+      flash[:notice] = "Signed up #{self.email}."
       redirect_to root_path
     else
       #render :new
