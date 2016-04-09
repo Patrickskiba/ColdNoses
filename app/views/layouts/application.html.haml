@@ -4,6 +4,8 @@
     %title ColdNoses
     = csrf_meta_tags
     = action_cable_meta_tag
+    = stylesheet_link_tag "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css",'application.css', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js","https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js", 'application', 'data-turbolinks-track' => true
     = stylesheet_link_tag 'application.css', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js", 'application', 'data-turbolinks-track' => true
     = favicon_link_tag 'favicon.ico'
