@@ -13,7 +13,7 @@ class EventsController < ApplicationController
   # GET /events/1
   # GET /events/1.json
   def show
-
+    @events = Event.all
   end
   def home
       @home = Event.where("start_time >= ?", Time.now).order(:start_time).first(4)
