@@ -6,7 +6,9 @@
     = f.email_field :email, autofocus: true, placeholder:"Email Address", class:"form-control"
   .field
     = f.password_field :password, autocomplete: "off", placeholder:"Password", class:"form-control"
-    %br
+  .field
+    = f.password_field :password_confirmation, autocomplete: "off", placeholder:"Password Confirmation", class:"form-control"
+  %br
   .field
     = f.text_field :first_name, autocomplete: "off", placeholder:"First Name", class:"form-control"
   .field

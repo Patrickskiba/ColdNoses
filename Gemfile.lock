@@ -18,6 +18,15 @@ GIT
       sprockets (< 4)
 
 GIT
+  remote: git://github.com/amro/gibbon.git
+  revision: afd0ceb2a33a6123113c5a98826969a66920f6fc
+  branch: master
+  specs:
+    gibbon (2.2.3)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
+
+GIT
   remote: git://github.com/justinfrench/formtastic.git
   revision: 5790fb6ba1f9d5dd45c71c4c731db477111e4245
   specs:
@@ -121,9 +130,6 @@ GEM
       jquery-rails (>= 4.0.5, < 5.0.0)
       jquery-ui-rails (>= 5.0.2)
       momentjs-rails (>= 2.9.0)
-    gibbon (2.2.3)
-      faraday (>= 0.9.1)
-      multi_json (>= 1.11.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     haml (4.0.7)
@@ -286,7 +292,7 @@ DEPENDENCIES
   devise!
   formtastic!
   fullcalendar-rails
-  gibbon
+  gibbon!
   haml (~> 4.0, >= 4.0.7)
   html2haml
   jbuilder (~> 2.0)

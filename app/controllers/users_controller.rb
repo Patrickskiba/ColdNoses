@@ -12,16 +12,8 @@ class UsersController < ApplicationController
   end
   def create
     if @user.valid?
-      @gibbon = Rails.application.secrets.mailchimp_api_key
-      @list_id = Rails.application.secrets.mailchimp_list_id
-      @result = @gibbon.list(@list_id).members.create(
-          body:{
-              email_address: self.email,
-              status: 'subscribed',
-              merge_fields: {FNAME: self.first_name, LNAME: self.last_name}
-          })
-      Rails.logger.info("Subscribed #{self.email} to MailChimp") if @result
-      flash[:notice] = "Signed up #{self.email}."
+        @user.subscribe
+        flash[:notice] = "Signed up #{@user.email}."
       redirect_to root_path
     else
       #render :new
