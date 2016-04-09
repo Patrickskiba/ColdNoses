@@ -2,7 +2,7 @@
 
 <p id="notice"><%= notice %></p>
 
-<div id="calendar"></div>
+<div id="calendar">
   <table>
       <thead>
       <tr>
@@ -18,13 +18,14 @@
               <tr>
              <td><%= event.title %></td>
               <td><%= event.description %></td>
-              <td><%= event.start_time %></td>
-              <td><%= event.end_time %></td>
+              <td><%= event.start_time.to_s(:event_time) %></td>
+              <td><%= event.end_time(:event_time) %></td>
             </tr>
             <% end %>
       </tbody>
     </table>
   <br/>
+  </div>
   <% if current_user.try(:admin?) %>
   <%= link_to 'New Event', new_event_path, class:"btn btn-success" %>
 <%end%>
