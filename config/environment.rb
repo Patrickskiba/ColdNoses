@@ -3,3 +3,4 @@ require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
 Rails.application.initialize!
+Time::DATE_FORMATS[:event_time] = "%m/%d/%Y %H:%M %p"
