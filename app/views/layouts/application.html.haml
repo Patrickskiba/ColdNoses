@@ -35,7 +35,7 @@
               - if user_signed_in?
                 Logged in as
                 = succeed "." do
-                  %strong= current_user.first_name
+                  %strong= current_user.name
                 %li
                   = link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link'
                 %li
