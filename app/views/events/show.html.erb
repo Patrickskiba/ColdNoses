@@ -17,12 +17,12 @@
 
   <p>
     <strong>Start time: </strong>
-    <%= @event.start_time %>
+    <%= @event.start_time.to_s(:event_time) %>
   </p>
 
   <p>
     <strong>End time: </strong>
-    <%= @event.end_time %>
+    <%= @event.end_time.to_s(:event_time) %>
   </p>
     <p>
       <%= render @event.comments %>
